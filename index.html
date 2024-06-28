@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <main class='bg-black flex flex-col gap-20 w-full h-screen p-4'>
+        <header class='flex justify-between items-center'>
+            <h1 class='text-white text-3xl font-semibold'>Portfo<span class='textSpan'>lio</span></h1>
+            <div class='text-white flex items-center gap-5 text-lg font-medium'>
+                <p class='headerNav'>Home</p>
+                <p class='headerNav'>About us</p>
+                <p class='headerNav'>Services</p>
+                <p class='headerNav'>Skills</p>
+                <p class='headerNav'>Contact us</p>
+            </div>
+            <button class='emailBtn'>Email</button>
+        </header>
+        <section class='w-full flex justify-center items-center'>
+            <div class='text-white flex flex-col items-center gap-8'>
+                <div class='flex flex-col items-center'>
+                    <h4 class='font-semibold text-2xl'>Hello, my name is</h4>
+                    <h1 class='text-5xl font-semibold'>I'm Shaik.Muskan <span class='textSpan'>Fathima</span></h1>
+                    <h5 class='font-semibold text-2xl'>I'm  a fullstack developer.</h5>
+                </div>
+                <button class="button type1 focus:outline-none"></button>
+            </div>
+        </section>
+        <section class='flex justify-center items-center text-white bg-black'>
+            <div class='flex items-center  justify-center gap-4 section'>
+                <section class='' id='img'><img width=400 src="https://dumbosdiary.com/wp-content/uploads/2017/05/Hidden-face-Girl-Dp3.jpg" alt="profile-pic"></section>
+                <div class='flex flex-col gap-4 content'>
+                    <h1 class='text-6xl font-semibold'>About Me</h1>
+                    <h3 class='text-2xl font-semibold'>Fullstack Web <span class='textSpan'>Developer</span></h3>
+                    <p class='text-xl font-semibold'>Hi, I'm Muskan Fathima, a passionate full-stack web developer specializing in JavaScript. I have extensive experience working with frameworks and libraries such as Next.js, React.js, React Router, React Redux, and Tailwind CSS.I am
+                        A front-end web Developer.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations. A responsive design makes your website accessible to all users, regardless of their
+                        device.</p>
+                    <button class='btnTalk'>Let's talk</button>
+                </div>
+            </div>
+        </section>
+        <section class='w-full bg-black flex flex-col justify-center text-white items-center gap-6'>
+            <h1 class='text-6xl font-semibold'>My Interests <span class='textSpan'>and</span> Hobbies</h1>
+            <div class='text-white w-full flex gap-5 items-center justify-center'>
+                <div class=card>
+                    <div class='card2 p-4 flex flex-col items-center gap-4'>
+                        <h1 class='text-2xl font-semibold'>Building <span class='textSpan'>web</span> applications</h1>
+                        <p class='text-xl font-semibold'>One of my favorite hobbies is building web applications. I enjoy planning and designing intuitive interfaces, writing efficient backend code, and deploying real-world applications. This hobby keeps me learning new technologies,
+                            staying creative, and solving challenging problems. Whether it's a small project or an open-source contribution, I love seeing my ideas come to life on the web.</p>
+                    </div>
+                </div>
+                <div class='card'>
+                    <div class='card2 p-4 flex flex-col items-center gap-4'>
+                        <h1 class='text-2xl font-semibold'>Exploring  <span class='textSpan'>JavaScript libraries</span></h1>
+                        <p class='text-xl font-semibold'>I love exploring new JavaScript libraries. It helps me stay up-to-date with the latest tools and technologies, enhances my productivity, and provides new perspectives for solving problems. Experimenting with these libraries in
+                            my projects keeps my skills sharp and fuels my creativity.</p>
+                    </div>
+                </div>
+                <div class='card'>
+                    <div class='card2 p-4 flex flex-col items-center gap-4'>
+                        <h1 class='text-2xl font-semibold'>Contributing to <span class='textSpan'>open-source</span> projects</h1>
+                        <p class='text-xl font-semibold'>I love contributing to open-source projects. It helps me learn from experienced developers, improve my coding skills, and collaborate with a global community. By contributing code, reporting issues, and improving documentation,
+                            I give back to the community and enhance my portfolio while expanding my professional network.</p>
+                    </div>
+                </div>
+                <div class='card'>
+                    <div class='card2  p-4 flex flex-col items-center gap-4'>
+                        <h1 class='text-2xl font-semibold'>Reading <span class='textSpan'>tech</span> blogs</h1>
+                        <p class='text-xl font-semibold'>I enjoy reading tech blogs to stay updated with the latest trends and technologies. They provide valuable tutorials and insights that help me learn new skills and stay inspired. Engaging with these blogs also allows me to connect
+                            with the tech community and gain a broader understanding of the industry</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class='w-full text-white flex flex-col items-center gap-5 p-4' id='sec'>
+            <h1 class='text-3xl font-semibold'>Let Me Get You A <span class='textSpan'>Beautiful Website</span></h1>
+            <button class='contactBtn'>Contact</button>
+        </section>
+        <div class="form-container mx-auto">
+            <form class="form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                    <div class='mt-2'>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="textarea">How Can We Help You?</label>
+                    <textarea name="textarea" id="textarea" rows="10" cols="50"></textarea>
+                </div>
+                <button id='formBtn' class="form-submit-btn">Submit</button>
+            </form>
+        </div>
+        <footer class='w-full text-white flex justify-around'>
+            <p>&copy; 2024 Muskan Fathima. All rights reserved.</p>
+            <p class='flex items-center gap-2'><span><i class='bx bxs-phone-call'></i></span>contact: 0000777415</p>
+            <p class='flex items-center gap-2'><span><i class='bx bxs-envelope' ></i></span>smileymuskan@gmail.com</p>
+            <p class='flex items-center gap-2'><span><i class='bx bxs-map-pin'></i></span>Mehndipatnam, Hyderabad</p>
+
+        </footer>
+    </main>
+</body>
+
+</html>
